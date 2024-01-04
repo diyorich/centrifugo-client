@@ -1,5 +1,7 @@
 github.com/centrifugal/centrifuge-go v0.10.1 h1:aAiW8SeJygYjyjvb6C7WM9uNDmVEAN60ngatTx8e1As=
 github.com/centrifugal/centrifuge-go v0.10.1/go.mod h1:jYJB6Nony+XVRbMJUZCzL2iDAp9rkJT7SRmf7Y1fQMY=
+github.com/centrifugal/centrifuge-go v0.10.2 h1:9DK7YvhlDO553k1kYnsSgowgGjz8EK406VTRLG+Thsk=
+github.com/centrifugal/centrifuge-go v0.10.2/go.mod h1:jYJB6Nony+XVRbMJUZCzL2iDAp9rkJT7SRmf7Y1fQMY=
 github.com/centrifugal/protocol v0.10.0 h1:Lac48ATVjVjirYPTHxbSMmiQXXajx7dhARKHy1UOL+A=
 github.com/centrifugal/protocol v0.10.0/go.mod h1:Tq5I1mBpLHkLxNM9gfb3Gth+sTE2kKU5hH3cVgmVs9s=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=

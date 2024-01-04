@@ -1,7 +1,6 @@
 package internal
 
 import (
-	"fmt"
 	"github.com/centrifugal/centrifuge-go"
 	"log"
 )
@@ -23,7 +22,7 @@ func Start(config AppConfig) (func(), error) {
 	})
 
 	client.OnDisconnected(func(event centrifuge.DisconnectedEvent) {
-		fmt.Sprintf("Client disconnected")
+		log.Println("Client disconnected")
 	})
 
 	client.OnError(func(e centrifuge.ErrorEvent) {
@@ -31,7 +30,8 @@ func Start(config AppConfig) (func(), error) {
 	})
 
 	client.OnPublication(func(event centrifuge.ServerPublicationEvent) {
-		fmt.Println("New Publication event")
+		log.Println("New Publication event")
+		log.Printf("data %v", string(event.Data))
 	})
 
 	client.OnSubscribing(func(e centrifuge.ServerSubscribingEvent) {

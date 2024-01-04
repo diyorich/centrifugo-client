@@ -1,7 +1,7 @@
 package main
 
 import (
-	"centrifugo-client-express24/internal"
+	"centrifugo-client/internal"
 	"fmt"
 	"log"
 )

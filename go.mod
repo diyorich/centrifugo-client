@@ -1,9 +1,9 @@
-module centrifugo-client-express24
+module centrifugo-client
 
 go 1.20
 
 require (
-	github.com/centrifugal/centrifuge-go v0.10.1
+	github.com/centrifugal/centrifuge-go v0.10.2
 	gopkg.in/yaml.v3 v3.0.1
 )
 
